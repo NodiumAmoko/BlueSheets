@@ -1,0 +1,89 @@
+﻿/*
+Write by J.Menou (c) BlueSheets - 2024
+*/
+
+header
+{
+	background-color: #181EB9;
+	display: flex;
+	display: -webkit-flex;
+	display: -moz-flex;
+	flex-direction: column;
+	
+}
+
+header span
+{
+	display: show;
+	font-family: 'Linebeam', sans-serif;
+	display: -webkit-flex;
+	display: -moz-flex;
+	flex-direction: line;
+}
+
+header h1
+{
+	color: #efefef;
+	font-size: 5em;
+	text-align: center;
+	margin: auto;
+	text-shadow: 2px 2px black;
+	font-family: 'Linebeam', sans-serif;
+}
+
+header h1:hover
+{
+	color: #77777F;
+	cursor: pointer;
+	text-shadow: -2px -2px black;
+}
+
+header ul
+{
+	background-color: black;
+	background-attachment: fixed;
+	border-color: grey;
+	border-style: double;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+header h1, header ul, header ul li
+{
+	-ms-user-select: none; /* Pour Internet Explorer >=10 & Edge */
+	-webkit-user-select: none; /* Pour Chrome >=6 && <54, Safari >=3.1 & Opera >=15 && <41 */
+	-moz-user-select: none; /* Pour Firefox >=2 */
+	user-select: none; /* Pour les versions récentes d'Opera et Chrome */
+}
+
+header ul li
+{
+	display: flex;
+	font-family: 'Linebeam', sans-serif;
+}
+
+header ul li a
+{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	text-shadow: 1px 1px grey;
+}
+
+header ul li a:hover
+{
+	background-color: black;
+	color: black;
+	cursor: pointer;
+	text-shadow: -1px -1px grey;
+}
+
+header marquee
+{
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}

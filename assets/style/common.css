@@ -1,0 +1,16 @@
+/*
+Write by J.Menou (c) BlueSheets - 2024
+*/
+
+/* Animations */
+@keyframes anim
+{
+	from{opacity:0;}
+	to{opacity:1;}
+}
+
+*
+{
+	opacity: 0;
+	animation: anim 3s forwards 1;
+}

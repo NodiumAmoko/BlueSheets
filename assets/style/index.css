@@ -1,0 +1,108 @@
+﻿/*
+Oh I see you have found this, but this is the wrong way :)
+*/
+
+#page
+{
+	
+	text-align: center;
+	color: white;
+	background-color: #08172F;
+	background-image: url('img/sheets.png');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	padding: auto;
+	display: flex;
+	justify-content: center;
+}
+
+#page h1
+{
+	background-color: rgba(0,0,0,0.1);
+	font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+#page h2
+{
+	background-color: rgba(0,0,0,0.1);
+	font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+#page-filter
+{
+	background-color: rgba(0,0,0,0.1);
+	padding-left: 30em;
+	padding-right: 30em;
+    font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+#em
+{
+	position: right-side;
+    font-family: 'Ubuntu', sans-serif;
+	text-shadow: 2px 2px black;
+}
+
+#menu
+{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: black;
+	background-attachment: fixed;
+	border-color: grey;
+	border-style: double;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+#box
+{
+	display: flex;
+	flex-direction: line;
+}
+
+#box1
+{
+	display: flex;
+	flex-direction: line;
+	justify-content: left;
+	padding-left: 2%;
+	text-align: center;
+}
+
+#box2
+{
+	display: flex;
+	flex-direction: line;
+	justify-content: center;
+}
+
+#box3
+{
+	display: flex;
+	flex-direction: line;
+	justify-content: right;
+	padding-right: 2%;
+}
+
+index article
+{
+	justify-content: left;
+	padding-left: 100%;
+}
+
+body 
+{
+    margin:0;
+}

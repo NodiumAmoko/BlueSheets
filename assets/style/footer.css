@@ -1,0 +1,40 @@
+/*
+Write by J.Menou (c) BlueSheets - 2024
+*/
+
+footer
+{
+	background-attachment: scroll;
+	background-color: black;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style: double;
+	border-color: grey;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer p
+{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	margin: auto;
+	text-shadow: 1px 1px grey;
+	-ms-user-select: none; /* Pour Internet Explorer >=10 & Edge */
+	-webkit-user-select: none; /* Pour Chrome >=6 && <54, Safari >=3.1 & Opera >=15 && <41 */
+	-moz-user-select: none; /* Pour Firefox >=2 */
+	user-select: none; /* Pour les versions récentes d'Opera et Chrome */
+}
+
+footer p a
+{
+	text-decoration: none;
+	color: inherit;
+	text-shadow: inherit;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+footer p a:hover
+{
+	text-shadow: -1px -1px grey;
+}
