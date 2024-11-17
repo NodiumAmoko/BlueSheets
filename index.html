@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Accueil - BlueSheets</title>
+		<link rel="shortcut icon" href="assets/img/fav.ico" />
+		<link rel="stylesheet" href="assets/style/common.css" />
+		<link rel="stylesheet" href="assets/style/index.css" />
+		<link rel="stylesheet" href="assets/style/header.css" />
+		<link rel="stylesheet" href="assets/style/footer.css" />
+		<link rel="stylesheet" href="assets/style/fonts.css" />
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script>
+             window.onload = () => {
+                let el = document.querySelector('[alt="www.000webhost.com"]').parentNode.parentNode;
+                el.parentNode.removeChild(el);
+            }
+		</script>
+	</head>
+
+		<body>       
+			<header id="header">
+				<h1><a href="./index.html"><img src="./assets/img/fronticon.png"></a></h1>
+					<ul>
+						<li><a href="./index.html">Accueil</a></li>
+						<li><a href="./product.html">Nos Produits</a></li>
+						<li><a href="./contact.html">A Propos</a></li>
+					</ul>
+			</header>
+		<div id="page">
+			<div id="page-filter">
+				<h2>BlueSheets</h2>
+					<p>Blue Sheets est une plateforme spécialisée dans la création et la vente de plans personnalisés pour des pièces mécaniques.
+					</br>Conçu pour répondre aux besoins variés des professionnels et particuliers dans le domaine de la mécanique,
+					</br>le site propose des solutions flexibles et adaptées, alliant expertise technique et simplicité d’utilisation.</p>
+				<h3>Objectif principal</h3>
+					<p>Offrir des services de conception et de production de pièces mécaniques,
+					</br>avec un processus clair et des options personnalisables pour répondre aux projets les plus exigeants.</p>	
+				<div id="box2">
+					<div id="menu">
+						<article>
+							<h3>Caractéristiques des forfaits</h3>
+								<p><b><u>Forfait Plan + Fabrication des pièces</u> :</b>
+								</br>
+								</br>Inclut la conception du plan et la fabrication des pièces selon la quantité souhaitée.
+								</br>Tarification variable en fonction du volume de production.
+								</br>Idéal pour les clients souhaitant une solution complète, de la conception à la réalisation.
+								<hr></hr>
+								</br><b><u>Forfait Plan uniquement</u> :</b>
+								</br>
+								</br>Service de mise au point d’un plan mécanique sur mesure.
+								</br>Livré sous format <U>PDF téléchargeable</U>, prêt à être utilisé pour fabrication ou archivage.
+								</br>Parfait pour ceux qui disposent de leurs propres moyens de production.</p>
+						</article>
+					</div>
+				</div>
+					</br>
+				<div id="box3">
+					<div id="menu">
+						<article>
+							<h3>Public cible</h3>
+							<p><b><u>Professionnels</u> :</b> Ingénieurs, fabricants,
+							</br>et entreprises en quête de solutions mécaniques sur mesure.
+							</br>
+							</br><b><u>Particuliers passionnés</u> :</b> Amateurs de mécanique cherchant à concrétiser
+							</br>leurs idées ou à réparer des équipements spécifiques.</p>
+						</article>
+					</div>
+				</div>
+					</br>
+				<div id="box1">
+					<div id="menu">
+						<article>
+							<p>Blue Sheets s’impose comme une référence
+							</br>en matière de conception et de fabrication de pièces mécaniques,
+							</br>en offrant des services adaptés à tous types de projets, 
+							</br>du plus simple au plus complexe.</p>
+						</article>
+					</div>
+				</div>
+					</br>
+			</div>
+		</div>
+				<footer id="footer">
+					<p>© <a href="#">BlueSheets</a> - 2024 , All right reserved | <a href="./cgu.html">CGU</a> <a href="./cgv.html">CGV</a></p>
+				</footer>
+			<script type="text/javascript">
+				$("#header").load('./assets/header.html');
+				$("#footer").load('./assets/footer.html');
+				$(".hidden").hide();
+			</script>
+		</body>
+
+</html>
