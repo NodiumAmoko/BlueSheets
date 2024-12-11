@@ -69,8 +69,8 @@ const animate = () => {
 };
 
 // Chargement de plusieurs modèles STL (vous pouvez ajouter d'autres URL ici)
-loadSTLModel('path/to/your/model1.stl');
-loadSTLModel('path/to/your/model2.stl');
+loadSTLModel('./models/1.STL');
+loadSTLModel('./models/2.STL');
 
 // Démarrage de l'animation principale
 animate();
