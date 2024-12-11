@@ -1,6 +1,6 @@
 // Importation des bibliothèques Three.js nécessaires
 import * as THREE from 'https://cdn.skypack.dev/three';
-import { STLLoader } from 'https://cdn.skypack.dev/three/examples/jsm/loaders/STLLoader.js';
+import { STLLoader } from 'https://unpkg.com/three@0.150.1/examples/jsm/loaders/STLLoader.js';
 
 // Création de la scène principale
 const scene = new THREE.Scene();
