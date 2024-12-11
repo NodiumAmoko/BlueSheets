@@ -20,24 +20,21 @@ Oh I see you have found this, but this is the wrong way :)
 
 #page h1
 {
-	background-color: rgba(0,0,0,0.1);
 	font-family: 'Ubuntu', sans-serif;
 	text-shadow: 2px 2px black;
 }
 
 #page h2
 {
-	background-color: rgba(0,0,0,0.1);
 	font-family: 'Ubuntu', sans-serif;
 	text-shadow: 2px 2px black;
 }
 
 #page-filter
 {
-	background-color: rgba(0,0,0,0.1);
 	padding-left: 30em;
 	padding-right: 30em;
-    font-family: 'Ubuntu', sans-serif;
+    	font-family: 'Ubuntu', sans-serif;
 	text-shadow: 2px 2px black;
 }
 
